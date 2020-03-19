@@ -25,7 +25,8 @@ pipeline {
             steps {
                 sh 'terraform init'
                 sh 'terraform plan -var-file="terraform.tfvars'
-                                             
+                
+                             
              
             }
         }
